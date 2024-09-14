@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 /* halaman awal */
 .cover {
@@ -54,6 +55,14 @@ p{
     font-size: 22px;
     font-weight: 500;
     margin-top: 5px;
+}
+
+.icon {
+    width: 27px;
+}
+
+.icon-2 {
+    width: 35px;
 }
 /* tombol open invitation */
 .btn {
@@ -134,6 +143,11 @@ p{
 }
 
 /* tombol navigasi */
+.navigasi {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
 #nav{ 
     display: flex;
     justify-content: center;
@@ -142,6 +156,7 @@ p{
     bottom: 5vh;
     width: 100%;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav ul{
@@ -366,6 +381,7 @@ iframe {
 /* story */
 .story {
     background-color: #F3E8D2;
+    color: #805C3E;
     margin-top: 30px;
     padding: 0 20px;
     display: flex;
@@ -685,8 +701,7 @@ button:hover {
 /* pesan untuk pengantin */
 .message {
     background-color: #F1E0C5;
-    text-align: center; 
-    padding: 40px 0;
+    padding-top: 20px;
 }
 
 .message img {
@@ -695,8 +710,7 @@ button:hover {
 
 .message-img {
     display: flex;
-    justify-content: center;
-    margin-top: 20px; 
+    justify-content: flex-end;
 }
 
 .container-message {
@@ -829,12 +843,16 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .elemen-koki img{
+        width: 230vw;
+    }
     .isiCover {
         height: auto;
         padding: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        top: 20vh;
     }
 
     .fotoCover {
@@ -875,7 +893,7 @@ button:hover {
     }
     
     .profil {
-        padding: 5px;
+        padding: 10px;
         flex-direction: column;
     }
     
@@ -891,20 +909,6 @@ button:hover {
     .asset-dan img{
         margin-left: 10vh;
     }
-    
-    .wanita img{
-        margin-left: 25vh;
-    }
-    
-    .wanita h2 {
-        padding-top: 5vh;
-    }
-
-    .info-acara {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    } 
     
     .countdown-wrapper {
         padding: 15px;
@@ -954,9 +958,30 @@ button:hover {
         width: 100%;
         margin-bottom: 15px;
     }
+    .rsvp {
+        margin-left: 60px;
+    }
 }
 
 @media (max-width: 600px) {
+    #nav img {
+        width: 23px;
+    }
+    .info-acara {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    } 
+
+    #musicControl {
+        bottom: 18vh; 
+    }
+
+    #musicControl img {
+        width: 38px;
+    }
+
     th, td {
         font-size: 12px;
         padding: 8px;

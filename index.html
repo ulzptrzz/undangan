@@ -21,9 +21,6 @@
         <p data-aos="fade-down" data-aos-duration="2000">
           Kami mengundang saudara-saudari untuk turut serta dalam acara
         </p>
-        <!-- <p>
-          untuk turut serta dalam acara
-        </p> -->
         <h2 data-aos="fade-down" data-aos-duration="2000">Hawa & Keluarga</h2>
         <!--Button ke halaman berikutnya-->
         <button class="btn" onclick="openInvite()" data-aos="fade-down" data-aos-duration="2000">
@@ -34,7 +31,9 @@
         </button>
       </section>
       <!--elemen cover pertama-->
-      <img data-aos="fade-up" data-aos-duration="2000" src="./asset/img/elemen13.png" />
+      <div class="elemen-koki">
+        <img data-aos="fade-up" data-aos-duration="2000" src="./asset/img/elemen13.png" />
+      </div>
     </header>
     <!-- Akhir Halaman Awal -->
 
@@ -44,7 +43,7 @@
       <section class="isiCover">
         <div class="text2"  data-aos="zoom-in" >
           <h1>The Wedding of</h1>
-          <h2 data-aos="fade-down">Belva & Citra <i class="fa-solid fa-mortar-pestle"></i></h2>
+          <h2 data-aos="fade-down">Belva & Citra <img class="icon" src="./asset/img/mortar-pestle-solid (1).svg" alt="icon" /></h2>
           <p>
             Sekalipun orang memberikan seluruh harta benda rumahnya demi cinta, cinta itu akan ditolak.
           </p>
@@ -62,33 +61,36 @@
         </div>
       </section>
       <!--navigasi halaman-->
-      <section id="nav" >
-        <ul>
-          <a href="#home">
-            <li><i class='bx bx-home-heart'></i></li
-          ></a>
-          <a href="#Profile">
-            <li><i class='bx bx-male-female'></i></li
-          ></a>
-          <a href="#acara"
-            ><li><i class='bx bx-calendar-heart'></i></li
-          ></a>
-          <a href="#gallery"
-            ><li><i class='bx bxs-file-image'></i></li
-          ></a>
-          <a href="#rsvp"
-            ><li><i class='bx bx-book-bookmark' ></i></li
-          ></a>
-          <a href="#gift"
-            ><li><i class='bx bx-gift' ></i></li
-          ></a>
-          <a href="#mymessage"
-            ><li><i class='bx bxs-message-square-edit'></i></li
-          ></a>
-        </ul>
-      </section>
-      <section id="musicControl" onclick="openInvite()">
-        <img id="imgmusik" src="./asset/img/musik.png" alt="matiin musik">
+      <section class="navigasi">
+
+        <section id="nav" >
+          <ul>
+            <a href="#home">
+              <li><img class="icon" src="./asset/img/home-heart-regular-24.png" alt="icon" /></li
+            ></a>
+            <a href="#Profile">
+              <li><img class="icon" src="./asset/img/male-female-regular-24.png" alt="icon" /></li
+            ></a>
+            <a href="#acara"
+              ><li><img class="icon" src="./asset/img/calendar-heart-regular-24.png" alt="icon" /></li
+            ></a>
+            <a href="#gallery"
+              ><li><img class="icon" src="./asset/img/file-image-solid-24 (1).png" alt="icon" /></li
+            ></a>
+            <a href="#rsvp"
+              ><li><img class="icon" src="./asset/img/book-bookmark-regular-24.png" alt="icon" /></li
+            ></a>
+            <a href="#gift"
+              ><li><img class="icon" src="./asset/img/gift-regular-white-24.png" alt="icon" /></li
+            ></a>
+            <a href="#mymessage"
+              ><li><img class="icon" src="./asset/img/message-alt-edit-regular-24.png" alt="icon" /></li
+            ></a>
+          </ul>
+        </section>
+        <section id="musicControl" onclick="openInvite()">
+          <img id="imgmusik" src="./asset/img/musik.png" alt="matiin musik">
+        </section>
       </section>
       <!--lagu dan qoutes-->
       <section id="quotes" class="qoutes">
@@ -96,7 +98,7 @@
           <source src="./asset/audio/Beatiful_in_white.mp3" type="audio/MP3" />
         </audio>
         <article data-aos="fade-up" data-aos-duration="2000">
-          <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo2.png" alt="">
+          <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo3.png" alt="">
           <h3>QS. Ar-Rum Ayat 21</h3>
           <p>
             وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا
@@ -114,7 +116,7 @@
             agar kamu cenderung dan merasa tenteram kepadanya, dan Dia
             menjadikan di antaramu rasa kasih dan sayang."
           </p>
-          <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo2.png" alt="">
+          <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo3.png" alt="">
         </article>
       </section>
       <!--Profil mempelai-->
@@ -145,7 +147,7 @@
         <section class="info-acara">
           <!--acara akad-->
           <section class="isi-acara" data-aos="fade-up" data-aos-duration="2000">
-            <h3 data-aos="fade-down" data-aos-duration="1000"><i class='bx bxs-sushi' ></i> Akad nikah <i class='bx bxs-sushi' ></i></h3>
+            <h3 data-aos="fade-down" data-aos-duration="1000"><img class="icon" src="./asset/img/sushi-solid-24.png" alt="icon" /> Akad nikah <img class="icon" src="./asset/img/sushi-solid-24.png" alt="icon" /></h3>
             <p data-aos="fade-up" data-aos-duration="1000">Tanggal: Juni 5, 2029</p>
             <p data-aos="fade-up" data-aos-duration="1000">Waktu: 10:00 AM - 12:00 PM</p>
             <p data-aos="fade-up" data-aos-duration="1000">Lokasi: Summarecon Mall Bekasi, Bekasi</p>
@@ -245,7 +247,7 @@
       </section>
       <!--Gallery photos-->
       <section id="gallery" class="gallery-container">
-        <h2 data-aos="fade-up" data-aos-duration="1000"><i class="fa-sharp-duotone fa-solid fa-utensils"></i> Gallery Photos & Videos <i class="fa-sharp-duotone fa-solid fa-utensils"></i></h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000"><img class="icon" src="./asset/img/utensils-solid (1).svg" alt="icon" /> Gallery Photos & Videos <img class="icon" src="./asset/img/utensils-solid (1).svg" alt="icon" /></h2>
         <section class="gallery">
           <img data-aos="fade-up" data-aos-duration="2000" src="./asset/img/Couple1.jpeg" alt="foto1" />
           <img data-aos="fade-down" data-aos-duration="2000" src="./asset/img/Couple3.jpeg" alt="foto2" />
@@ -269,7 +271,7 @@
       <section class="tamu-khusus">
         <section class="special-guest-section" data-aos="fade-up" data-aos-duration="2000">
           <header class="tamu">
-            <h2><i class="ai-utensils"></i> Tamu Khusus <i class="ai-utensils"></i></h2>
+            <h2><img class="icon" src="./asset/img/bowl-hot-regular-24.png" alt="icon" /> Tamu Khusus <img class="icon" src="./asset/img/bowl-hot-regular-24.png" alt="icon" /></h2>
           </header>
           <table id="special-guests-table">
             <thead>
@@ -313,7 +315,7 @@
       <!--Form rsvp-->
       <section class="formulir">
         <section id="rsvp" class="rsvp" data-aos="fade-up" data-aos-duration="2000">
-            <h1>RSVP <i class='bx bxs-coffee-alt' ></i></h1>
+            <h2>Form Kehadiran <img class="icon" src="./asset/img/coffee-alt-solid-24.png" alt="icon" /></h2>
             <form id="rsvpForm">
               <!--Format textbox-->
               <label for="name">Nama:</label>
@@ -362,7 +364,7 @@
       </section>
         <!-- Pengiriman hadiah-->
         <section class="gift-section" id="gift" data-aos="fade-up" data-aos-duration="2000">
-          <h2 class="section-title">Kirim Hadiah <i class='bx bx-gift'></i></h2>
+          <h2 class="section-title">Kirim Hadiah <img class="icon" src="./asset/img/gift-regular-24.png" alt="icon" /></h2>
           
           <div class="transfer-options">
             <!-- Bagian Transfer -->
@@ -402,9 +404,9 @@
         
         <!-- Pesan Untuk Pengantin -->
         <section class="message">
-          <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo2.png" alt="logo">
+          <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo3.png" alt="logo">
           <div class="container-message" id="mymessage" data-aos="fade-up" data-aos-duration="2000">
-            <h2>Pesan untuk Pengantin <i class='bx bx-message-alt-edit' ></i></h2>
+            <h2>Pesan untuk Pengantin </h2>
             <form class="message-form" id="messageForm">
               <input type="text" class="text-form" id="name" placeholder="Nama lengkap" required>
               <input type="text" class="text-form" id="location" placeholder="Alamat" required>
@@ -414,13 +416,13 @@
             <div class="messages-section"></div>
           </div>
           <div class="message-img">
-            <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo2.png" alt="logo">
+            <img data-aos="zoom-in-up" data-aos-duration="1000" src="./asset/img/logo3.png" alt="logo">
           </div>
         </section>
         <!-- Pesan terimakasih -->
         <section class="thank-you">
           <section class="thank-you-section" data-aos="fade-up" data-aos-duration="2000">
-            <h2><i class='bx bx-dish'></i> Terima Kasih <i class='bx bx-dish'></i></h2>
+            <h2><img class="icon" src="./asset/img/dish-regular-24.png" alt="icon" /> Terima Kasih <img class="icon" src="./asset/img/dish-regular-24.png" alt="icon" /></h2>
             <p>Atas Doa Dan Bapak/Ibu Yang Berkenan Hadir Pada Acara Yang Kami Selenggarakan</p>
           </section>
           <!--footer image-->
