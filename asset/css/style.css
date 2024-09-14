@@ -956,6 +956,13 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    .detail-acara {
+        padding: 50px 5px;
+        background: #C1A17F;
+        color: #333;
+        text-align: center;
+    }
+    
     .navigasi {
         display: flex;
         justify-content: center;
@@ -1050,12 +1057,3 @@ button:hover {
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .detail-acara {
-        padding: 50px 5px;
-        background: #C1A17F;
-        color: #333;
-        text-align: center;
-    }
-
-}
