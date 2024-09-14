@@ -895,7 +895,7 @@ button:hover {
     }
 
     .detail-acara {
-        padding: 50px 5px;
+        padding: 50px 20px;
         background: #C1A17F;
         color: #333;
         text-align: center;
@@ -954,7 +954,7 @@ button:hover {
     }
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .navigasi {
         display: flex;
         justify-content: center;
@@ -1012,6 +1012,7 @@ button:hover {
     #musicControl {
         bottom: 15vh;
         right: 5px;
+        overflow-x: hidden;
     }
 
     #musicControl img {
@@ -1046,4 +1047,14 @@ button:hover {
     .rsvp {
         margin-left: 0;
     }
+}
+
+@media only screen and (max-width: 320px) {
+    .detail-acara {
+        padding: 50px 5px;
+        background: #C1A17F;
+        color: #333;
+        text-align: center;
+    }
+
 }
