@@ -1009,7 +1009,8 @@ button:hover {
     } 
 
     #musicControl {
-        bottom: 15vh; 
+        bottom: 15vh;
+        right: 5px;
     }
 
     #musicControl img {
