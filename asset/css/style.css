@@ -895,7 +895,7 @@ button:hover {
     }
 
     .detail-acara {
-        padding: 50px 0px;
+        padding: 50px 5px;
         background: #C1A17F;
         color: #333;
         text-align: center;
@@ -1001,6 +1001,7 @@ button:hover {
     #nav img {
         width: 20px;
     }
+
     .info-acara {
         display: flex;
         flex-direction: column;
@@ -1015,6 +1016,17 @@ button:hover {
 
     #musicControl img {
         width: 38px;
+    }
+
+    .countdown-wrapper {
+        padding: 10px;
+        margin: 0 60px 0 60px;
+    }
+
+    #countdown {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
     }
 
     th, td {
