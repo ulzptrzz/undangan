@@ -105,7 +105,6 @@ p{
 }
 /* halaman kedua */
 .coverKedua {
-    overflow-x: hidden;
     background-color: #F3E8D2;
     display: none;
     opacity: 0;
@@ -956,13 +955,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .detail-acara {
-        padding: 50px 5px;
-        background: #C1A17F;
-        color: #333;
-        text-align: center;
-    }
-    
     .navigasi {
         display: flex;
         justify-content: center;
@@ -1019,7 +1011,7 @@ button:hover {
 
     #musicControl {
         bottom: 15vh;
-        right: 15px;
+        right: 5px;
         overflow-x: hidden;
     }
 
@@ -1057,3 +1049,12 @@ button:hover {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .detail-acara {
+        padding: 50px 5px;
+        background: #C1A17F;
+        color: #333;
+        text-align: center;
+    }
+
+}
